@@ -13,7 +13,7 @@ export default function Home() {
           priority
         />
 <h1>Hellow from a new test project</h1>
-<p>I will make a new changes</p>
+<p>I changed the project name</p>
       </main>
     </div>
   );
