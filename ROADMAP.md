@@ -26,7 +26,7 @@ Below is the visual structure of the project folders:
 │   └── images/           # Screenshots & Graphics
 ├── types/                # TypeScript Interfaces & Types
 └── ROADMAP.md            # Project Tracking
-
+```
 
 # ✅ To Do List
 
