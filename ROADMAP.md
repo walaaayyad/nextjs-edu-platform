@@ -3,7 +3,39 @@
 ## 📂 Project Structure
 Below is the visual structure of the project folders:
 
-![Project Structure](./public/images/structure.png)
+## 🧩 Project Structure (Diagram)
+
+```mermaid
+graph TD
+    A[app/] --> B[(auth)/]
+    A --> C[(dashboard)/]
+    A --> D[subjects/]
+    D --> D1[[subjectId]/]
+    D1 --> D2[Lessons / Projects / Video]
+    A --> E[favorites/]
+    A --> F[layout.tsx]
+    A --> G[page.tsx]
+
+    H[components/] --> H1[layout/]
+    H1 --> H1a[header.tsx]
+    H1 --> H1b[logo.tsx]
+    H1 --> H1c[theme-toggle.tsx]
+    H1 --> H1d[lang-switcher.tsx]
+
+    H --> H2[ui/]
+    H --> H3[video/]
+
+    I[context/] --> I1[Favorites]
+    I --> I2[Theme]
+    I --> I3[Language]
+
+    J[data/] --> J1[courses.json]
+    K[hooks/]
+    L[lib/]
+    M[public/] --> M1[images/]
+    N[types/] --> N1[index.ts]
+```
+
 
 ```text
 ├── app/                  # Routes & Pages (Next.js App Router)
@@ -27,6 +59,7 @@ Below is the visual structure of the project folders:
 ├── types/                # TypeScript Interfaces & Types
 └── ROADMAP.md            # Project Tracking
 ```
+
 
 # ✅ To Do List
 
