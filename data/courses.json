@@ -1,0 +1,149 @@
+[
+  {
+    "id": "html-css",
+    "title": {
+      "ar": "تطوير الواجهات: HTML & CSS",
+      "en": "Web Layout: HTML & CSS"
+    },
+    "icon": "Layout",
+    "content": {
+      "arabic": {
+        "lessons": [
+          {
+            "id": "html-ar-1",
+            "title": "مقدمة كاملة في HTML 2024",
+            "type": "single",
+            "youtubeId": "6QAELgirvjs"
+          },
+          {
+            "id": "css-ar-playlist",
+            "title": "دورة CSS كاملة من الصفر",
+            "type": "playlist",
+            "playlistId": "PLDoPjvoNmBAzjsz06UtQ_qPITOqCfd2u-"
+          }
+        ],
+        "projects": [
+          {
+            "id": "proj-ar-1",
+            "title": "بناء موقع شخصي بسيط",
+            "type": "single",
+            "youtubeId": "hSTn6_p9S_0"
+          }
+        ],
+        "faqs": [
+          {
+            "question": "ما الفرق بين HTML و CSS؟",
+            "answer": "HTML مسؤولة عن هيكل ومحتوى الصفحة، بينما CSS مسؤولة عن التصميم والألوان والشكل النهائي."
+          }
+        ]
+      },
+      "english": {
+        "lessons": [
+          {
+            "id": "html-en-1",
+            "title": "HTML Full Course for Beginners",
+            "type": "single",
+            "youtubeId": "kUMe1FH4CHE"
+          }
+        ],
+        "projects": [
+          {
+            "id": "proj-en-1",
+            "title": "Modern Landing Page Design",
+            "type": "single",
+            "youtubeId": "p0bGHP-7Wp4"
+          }
+        ],
+        "faqs": [
+          {
+            "question": "Is CSS hard to learn?",
+            "answer": "It starts easy but takes practice to master layouts like Flexbox and Grid."
+          }
+        ]
+      }
+    },
+    "tools": [
+      {
+        "name": "MDN Web Docs",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+        "description": "Best reference for HTML/CSS."
+      }
+    ]
+  },
+  {
+    "id": "javascript",
+    "title": {
+      "ar": "لغة جافا سكريبت",
+      "en": "JavaScript Language"
+    },
+    "icon": "Code",
+    "content": {
+      "arabic": {
+        "lessons": [
+          {
+            "id": "js-ar-1",
+            "title": "أساسيات جافا سكريبت للمبتدئين",
+            "type": "single",
+            "youtubeId": "W6NZfCO5SIk"
+          },
+          {
+            "id": "js-ar-playlist",
+            "title": "دورة JS كاملة - الزيرو",
+            "type": "playlist",
+            "playlistId": "PLDoPjvoNmBAx3kiplQR_oeDqLDBUDYwVv"
+          }
+        ],
+        "projects": [
+          {
+            "id": "js-proj-ar-1",
+            "title": "بناء تطبيق إدارة مهام (To-Do App)",
+            "type": "single",
+            "youtubeId": "69_p9jZp7S0"
+          }
+        ],
+        "faqs": [
+          {
+            "question": "لماذا يجب أن أتعلم JavaScript؟",
+            "answer": "لأنها اللغة الوحيدة التي تعمل في المتصفح وتسمح لك بإضافة التفاعل للمواقع."
+          }
+        ]
+      },
+      "english": {
+        "lessons": [
+          {
+            "id": "js-en-1",
+            "title": "JavaScript Tutorial for Beginners",
+            "type": "single",
+            "youtubeId": "jS4aFq5dxIw"
+          }
+        ],
+        "projects": [
+          {
+            "id": "js-proj-en-1",
+            "title": "Build a Quiz App with JS",
+            "type": "single",
+            "youtubeId": "riDzcEQbX6k"
+          }
+        ],
+        "faqs": [
+          {
+            "question": "How long to learn JS?",
+            "answer": "It depends on your pace, but usually 3-6 months to get comfortable."
+          }
+        ]
+      }
+    },
+    "tools": [
+      {
+        "name": "JavaScript.info",
+        "url": "https://javascript.info/",
+        "description": "Comprehensive JS tutorial."
+      },
+      {
+        "name": "Stack Overflow",
+        "url": "https://stackoverflow.com/",
+        "description": "Great for solving JS errors."
+      }
+    ]
+  }
+]
