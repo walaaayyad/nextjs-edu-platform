@@ -34,7 +34,7 @@ Below is the visual structure of the project folders:
 * [x] Initialize Next.js project (App Router, Tailwind CSS, TypeScript)
 * [x] Setup folder structure
 * [x] Define TypeScript interfaces in `/types/index.ts`
-* [ ] Prepare initial data in `/data/courses.json` (HTML & CSS sample)
+* [x] Prepare initial data in `/data/courses.json` (HTML & CSS sample)
 * [ ] Configure theme system (dark/light mode using next-themes)
 
 ---
